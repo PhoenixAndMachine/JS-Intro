@@ -1,0 +1,16 @@
+Im Gegensatz zu anderen Open-Source-Hostern wie SourceForge ist auf GitHub nicht das Projekt als Sammlung
+von Quellcode zentral, sondern der Nutzer mit seinen Repositories (Verzeichnissen, die von Git
+kontrolliert werden). Gleichzeitig wird das Erstellen und Wiedervereinigen von Abspaltungen (Forks
+besonders propagiert. Forks dienen weiterhin dazu, einfach bei anderen Projekten mitentwickeln zu können.
+Um einem Repository/Projekt einen Beitrag beizusteuern, wird das Repository zunächst aufgespalten, dann
+werden die zu übernehmenden Änderungen hinzugefügt und dem Besitzer des Ur-Repositorys ein Pull-Request
+gestellt (alles über die Weboberfläche). Damit soll den Besonderheiten verteilter Versionskontrollsysteme
+besonders Rechnung getragen und zugleich ein Soziales Netzwerk geschaffen werden, was sich auch in dem
+Slogan des Unternehmens und den aus „echten“ sozialen Netzwerken bekannten Funktionen „Beobachten“ oder
+ „Folgen“ niederschlägt.
+Während Open-Source-Projekte GitHub kostenfrei nutzen können, gibt es auch kostenpflichtige Angebote für
+proprietäre Software, die zum Beispiel erlauben, sogenannte Private Repositorys zu erstellen, die nicht
+öffentlich einsehbar sind. Kostenfreie Accounts dürfen nur öffentliche Repositorys erstellen.
+Außerdem bietet GitHub Inc. größeren Unternehmen GitHub Enterprise an, eine eigene, abgetrennte Github
+Installation zu liefern, um die Vorteile des sozialen Programmierens auch bei der unternehmensinternen
+Softwareentwicklung zu nutzen.[3]
