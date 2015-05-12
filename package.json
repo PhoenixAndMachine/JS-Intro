@@ -1,0 +1,6 @@
+{
+  "name": "js-intro",
+  "devDependencies": {
+    "docco": "0.7.0"
+  }
+}
