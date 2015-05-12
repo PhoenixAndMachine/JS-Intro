@@ -1,29 +1,44 @@
-console.log(typeof x); // undefined
+// *** `whatisx` is a function to print out the information about input `x`. ***
+function whatisx(x) {
+  console.log("======================================================");
+  console.log(typeof x); 
+  console.log(x); 
+  console.log("x is ", x);
+}
 
+
+// * `x` is not declared
+whatisx(x);
+
+// * `x` is declared without assignment 
 var x;
-console.log(typeof x); // undefined
-console.log(x); // undefined
+whatisx(x);
 
+// * `x` is defined as `null`
 x = null;
-console.log(typeof x); //object
-console.log(x); //null
+whatisx(x);
 
+
+// * `x` is defined as `hello`
 x = "hello";
-console.log(typeof x); //string
+whatisx(x);
 
-
+// * `x` is defined as `123`
 x = 123;
-console.log(typeof x); //number
+whatisx(x);
 
+// * `x` is defined as `123.34`
 x = 123.34;
-console.log(typeof x); //number
+whatisx(x);
 
+// * `x` is defined as `true`
 x = true;
-console.log(typeof x); //boolean
+whatisx(x);
 
+// * `x` is defined as `function`
 
 x = function(){};
-console.log(typeof x); //function
+whatisx(x);
 
-
+// *** variable can be a function !!! ***
 
