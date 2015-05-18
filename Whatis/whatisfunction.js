@@ -1,22 +1,23 @@
 var X = require('./whatisx.js');
 var wsX = X.wsX;
 var wsOwnProperties = X.wsOwnProperties; 
+var c = console.log;
 
-function print (x, y) {
-  console.log("==================Running Print========================");
-  console.log("What is this function ? ");
-  console.log("Who called me ", print.caller);
-  console.log(print.arguments);
-  console.log(print.prototype);
-  console.log("==================The End of Print=====================");
+function print() {
+  console.log(arguments);
+  wsOwnProperties(print);
+  c("====================================");
+  c(print['arguments']);
+  c(print['name']);
+  c(print['length']);
+  c("====================================");
+  c("caller is " + print['caller']);
+  c("====================================");
+  c("caller 2 is " + print['caller']['caller']);
+  c("====================================");
+  c("p is "+ print['prototype']);
 }
 
-print();
-print("a", 14);
-print(7, "b", 9, [3,4,5]);
 
-//wsX(print);
-
-wsOwnProperties(print);
-
+print(3, 4);
 

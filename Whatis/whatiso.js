@@ -16,15 +16,25 @@ function whatisO(o) {
 
 // * undefined
 whatisO(undefined);
+
 // * boolean
 whatisO(true);
+
 // * number
 whatisO(8);
+
 // * string
 whatisO('Trantect');
+
 // * function
 whatisO(function(){});
+
+function print(x, y, z) {}
+whatisO(print);
+
+var print = function() {}
+whatisO(print);
+
 // * object
 whatisO({name:'Trantect', age:2});
-
 

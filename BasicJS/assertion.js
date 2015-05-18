@@ -46,3 +46,7 @@ check(null);
 
 check([0]);
 */
+as({},{});
+as([],[]);
+
+module.exports = as;
