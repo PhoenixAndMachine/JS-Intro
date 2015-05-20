@@ -1,5 +1,8 @@
 {
   "name": "js-intro",
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
   "devDependencies": {
     "docco": "0.7.0"
   }
