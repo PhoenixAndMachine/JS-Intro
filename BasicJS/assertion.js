@@ -5,10 +5,8 @@ var c = console.log;
 // * Input `k` and `v`
 // * Output the results of `k===v` and `k==v`
 var as = function(k, v) {
-  c("===================BEGIN=================");
-  c(k, "===", v, k === v);
-  c(k, "==", v, k == v);
-  c("===================END===================")
+  c(typeof(k), k, "===", typeof(v), v, 'is',k === v, 'as if condition\n');
+  c(typeof(k), k, "==", typeof(v), v, 'is',k == v, 'as if condition\n');
 }
 
 // *** Define a function `check` to see whether the input is equal to some constants. ***
@@ -35,7 +33,6 @@ function check(value) {
   as(value, 'false');
 }
 
-/*
 check(true);
 
 check(false);
@@ -45,8 +42,8 @@ check(undefined);
 check(null);
 
 check([0]);
-*/
 as({},{});
 as([],[]);
-
-module.exports = as;
+module.exports = {
+  as: as
+};
